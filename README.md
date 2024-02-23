@@ -6,11 +6,11 @@ This script is a simple GUI application that allows to convert JSON data into XM
 How the Script Works <br>
 ----
 Operation:
-       - import the necessary modules: tkinter for creating the GUI, json for handling JSON data, and xml.etree.ElementTree for working with XML data;
-       - convert_json_to_xml() function is defined to convert JSON data to XML format. It reads the JSON data inputted by the user, converts it to a Python dictionary using json.loads(), and then calls the dict_to_xml() function to convert the dictionary into XML format;
-       - dict_to_xml() function recursively converts a Python dictionary into an XML element structure using the ElementTree module;
-       - the main window of the GUI application is created using tk.Tk() and set the title to "JSON to XML Converter;
-       - adds necessary widgets, like asking labels, inputting widget, button-trigger the conversion, result label, text widget displaying XML output data;
+       - import the necessary modules: tkinter for creating the GUI, json for handling JSON data, and xml.etree.ElementTree for working with XML data;<br>
+       - convert_json_to_xml() function is defined to convert JSON data to XML format. It reads the JSON data inputted by the user, converts it to a Python dictionary using json.loads(), and then calls the dict_to_xml() function to convert the dictionary into XML format;<br>
+       - dict_to_xml() function recursively converts a Python dictionary into an XML element structure using the ElementTree module;<br>
+       - the main window of the GUI application is created using tk.Tk() and set the title to "JSON to XML Converter;<br>
+       - adds necessary widgets, like asking labels, inputting widget, button-trigger the conversion, result label, text widget displaying XML output data;<br>
 
 Additional Notes <br>
 ----
